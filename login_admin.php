@@ -21,7 +21,7 @@
             <h2 class="titulo_formulario">Acesso Restrito</h2>
             <p class="subtitulo_formulario">Apenas administradores autorizados</p>
 
-            <form action="processa_login.php" method="POST" class="formulario">
+            <form action="dashboard_admin.php" method="POST" class="formulario">
                 <div class="grupo_campo">
                     <label for="usuario" class="rotulo">Usuário</label>
                     <div class="campo_com_icone">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 
-                <a href="dashboard_admin.php" class="botao_enviar_admin">Iniciar Sessão</a>
+                <button type="submit" class="botao_enviar_admin">Iniciar Sessão</a>            
             </form>
 
         </div>
