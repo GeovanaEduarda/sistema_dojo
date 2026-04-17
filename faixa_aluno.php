@@ -23,7 +23,24 @@
                         <span class="valor_faixa">R$ 50.00</span>
                     </div>
                 </a>
-                
+                <a href="faixa_confirmacao.php?faixa=Marrom&valor=70.00" style="text-decoration: none; color: inherit;">
+                    <div class="item_faixa">
+                        <span class="nome_faixa">Marrom</span>
+                        <span class="valor_faixa">R$ 70.00</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="faixa_tamanho">
+                <a href="faixa_confirmacao.php?faixa=P" class="tamanho_faixa">
+                    <span>P</span>
+                </a>
+                <a href="faixa_confirmacao.php?faixa=M" class="tamanho_faixa">
+                    <span>M</span>
+                </a>
+                <a href="faixa_confirmacao.php?faixa=G" class="tamanho_faixa">
+                    <span>G</span>      
+                </a>
             </div>
         </section>
     </main>
